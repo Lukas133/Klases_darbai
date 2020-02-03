@@ -1,8 +1,9 @@
 <?php
-// sukurti sakini is 5< zodziu. po kiekvieno zodzio yra padetas taskas. jums reikia naudoti pazines php funcijas tuos taskus pakeisti i tarpus;
-$tekstas = 'labas.kaip.sekasi.tau.ka?';
-$labas = str_replace(".", " " ,"$tekstas");
-print "$tekstas <br>";
-print $labas;
+// sukurti stinga kuris susidarytu is sakinio> Turi jame egzistuoti didziosios ir mazosios raides.
+//Panaudoti php default'ine funkcija kur visas stringo raides oavestu didziosmis arba mazossomis
+$tekstas = 'LAbaS As ESU TOMAS IR as SpOrTuOjU';
+$padidintas = strtoupper($tekstas);
+$sumazintos = strtolower($tekstas);
+print $sumazintos . " " . $padidintas;
 
  ?>
