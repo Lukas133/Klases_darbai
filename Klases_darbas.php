@@ -1,31 +1,20 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
-$target = 'penkTadIeNis';
+// sukurti foro cikla kuris prasidetu nuo 0 veiktu
+//iki kol kintamasis pataps 10 ir atsapausdins savo ciklos reiksme kas 1 vieneta
 
-switch (strtoupper($target)) {
-  case 'PIRMADIENIS':
-    print 'pirmadienis';
-    break;
-    case 'ANTRADIENIS':
-      print 'antradienis';
-      break;
-      case 'TRECIADIENIS':
-        print 'treciadienis';
-        break;
-        case 'KETVIRTADIENIS':
-          print 'ketvirtadienis';
-          break;
-          case 'PENKTADIENIS':
-            print 'penktadienis';
-            break;
-            case 'SESTADIENIS':
-              print 'sestadienis';
-              break;
-              case 'SEKAMDIENIS':
-                print 'sekmadienis';
-                break;
-  default:
-    print 'nera tokios savaites dienos';
-    break;
+for ($i=0; $i <= 10 ; $i+=1) {
+  print $i  ;
+}
+ print " <br> ";
+for ($i=0; $i <= 10 ; $i+=2) {
+  print $i  ;
+}
+ print " <br> ";
+for ($i=0; $i <= 10 ; $i+=5) {
+  print $i  ;
 }
  ?>
