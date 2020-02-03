@@ -1,9 +1,31 @@
 <?php
-// sukurti stinga kuris susidarytu is sakinio> Turi jame egzistuoti didziosios ir mazosios raides.
-//Panaudoti php default'ine funkcija kur visas stringo raides oavestu didziosmis arba mazossomis
-$tekstas = 'LAbaS As ESU TOMAS IR as SpOrTuOjU';
-$padidintas = strtoupper($tekstas);
-$sumazintos = strtolower($tekstas);
-print $sumazintos . " " . $padidintas;
 
+$target = 'penkTadIeNis';
+
+switch (strtoupper($target)) {
+  case 'PIRMADIENIS':
+    print 'pirmadienis';
+    break;
+    case 'ANTRADIENIS':
+      print 'antradienis';
+      break;
+      case 'TRECIADIENIS':
+        print 'treciadienis';
+        break;
+        case 'KETVIRTADIENIS':
+          print 'ketvirtadienis';
+          break;
+          case 'PENKTADIENIS':
+            print 'penktadienis';
+            break;
+            case 'SESTADIENIS':
+              print 'sestadienis';
+              break;
+              case 'SEKAMDIENIS':
+                print 'sekmadienis';
+                break;
+  default:
+    print 'nera tokios savaites dienos';
+    break;
+}
  ?>
