@@ -1,21 +1,19 @@
 <?php
-//tikrina ar skaicius
+//sumazina oer puse masyva
 $a = [
 10,
 20,
 30,
-1,
-1,
 50,
-0,
-0,
-'Jonas',
-'petras',
+60,
+70,
+80,
 ];
-var_dump($a);
-foreach ($a as $key => $value) {
-  if (is_numeric($value)) {
-    print $value . '<br>';
-  }
+$rezultatas = count($a);
+print $rezultatas;
+for ($x=0; $x <= $rezultatas; $x+=2) {
+  $b[] = $a[$x];
+
 }
+var_dump($b);
  ?>
