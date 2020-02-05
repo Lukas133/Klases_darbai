@@ -1,10 +1,19 @@
 <?php
-$a = 5;
-$b = 2;
-if ( $a>$b) {
-print 'a daugiau uz b';
-}else {
- print 'a maziau uz b arba a lygu b';
-}
+//spausdina zodi Vokietija
+$salis = 'de';
+switch ($salis) {
+  case 'ca':
+    echo("Kanada");
+    break;
+case 'cr':
+  echo("Kosta rika");
+  break;
+  case 'de':
+  echo ("Vokietija");
+  break;
+  case "uk" :
+    echo("Didzioji britanija");
+    break;
+};
 
  ?>
