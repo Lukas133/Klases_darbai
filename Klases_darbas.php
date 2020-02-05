@@ -1,19 +1,12 @@
 <?php
-//spausdina zodi Vokietija
-$salis = 'de';
-switch ($salis) {
-  case 'ca':
-    echo("Kanada");
-    break;
-case 'cr':
-  echo("Kosta rika");
-  break;
-  case 'de':
-  echo ("Vokietija");
-  break;
-  case "uk" :
-    echo("Didzioji britanija");
-    break;
-};
+$a = "10 maisas";
+$b = "1 maisas";
+
+$aex = explode(" ", $a);
+$bex = explode(" ", $b);
+var_dump($aex);
+var_dump($bex);
+
+print $c = $aex[0] + $bex[0];
 
  ?>
