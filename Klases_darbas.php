@@ -1,12 +1,21 @@
 <?php
-$a = "10 maisas";
-$b = "1 maisas";
-
-$aex = explode(" ", $a);
-$bex = explode(" ", $b);
-var_dump($aex);
-var_dump($bex);
-
-print $c = $aex[0] + $bex[0];
-
+//tikrina ar skaicius
+$a = [
+10,
+20,
+30,
+1,
+1,
+50,
+0,
+0,
+'Jonas',
+'petras',
+];
+var_dump($a);
+foreach ($a as $key => $value) {
+  if (is_numeric($value)) {
+    print $value . '<br>';
+  }
+}
  ?>
