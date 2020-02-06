@@ -234,13 +234,13 @@ $countryArray = array(
 );
 
 $masyvas=[
-	'pirmas' => 'siandiena',
-	'antras' => 'rasiu',
-	'trecias' =>'tave',
-	'ketviras' =>'batai',
-	'penktas' => 'mano',
-	'sestas' => 'busi',
+'man atrodo tu esi geras zmogus',
+'ir mielas.',
 ];
-print $masyvas['pirmas'] . '<br>';
-print $masyvas['trecias'] . '<br>';
+$kitas=[
+	'tomai',
+	'giedriau',
+];
+print $kitas['1'] . ' ';
+print $masyvas['0'] . ' ';
  ?>
