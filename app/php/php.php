@@ -233,14 +233,13 @@ $countryArray = array(
 	'ZW'=>array('name'=>'ZIMBABWE','code'=>'263')
 );
 
-$masyvas=[
-'man atrodo tu esi geras zmogus',
-'ir mielas.',
+$masyvas=[0.5, 3, 7.3, 2, 7, 7.1, 9, 5.4,
 ];
-$kitas=[
-	'tomai',
-	'giedriau',
-];
-print $kitas['1'] . ' ';
-print $masyvas['0'] . ' ';
+foreach ($masyvas as $key => $value) {
+	if (is_integer($value)) {
+		 $b[] = $value;
+	}
+}
+var_dump($masyvas);
+var_dump($b);
  ?>
