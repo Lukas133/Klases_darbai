@@ -234,42 +234,5 @@ $countryArray = array(
 );
 
 
-if($_POST){
-array_push($users, $_POST);
-}
-$usersData=[
-[
-	'name' => 'Tomas',
-	'age' => 24,
-	'address' => 'Kauno g. 31',
-	'url' => 'https://dergreif-online.de/www/wp-content/uploads/2016/07/Timothy_hoch.jpg',
-],
-[
-	'name' => 'Dainius',
-	'age' => 31,
-	'address' => 'pramones g. 7',
-	'url' => 'https://media.gq.com/photos/5e1367fde1538300087c4f37/16:9/w_2560%2Cc_limit/new-season-the-bachelor-Peter-Weber-gq-january-2020.jpg',
-],
-[
-	'name' => 'Zilvinas',
-	'age' => 45,
-	'address' => 'Dariaus ir gireno g. 202',
-	'url' => 'https://i.insider.com/5d7001d32e22af4b785ed247?width=1100&format=jpeg&auto=webp',
-],
-[
-	'name' => 'Tomas',
-	'age' => 21,
-	'address' => 'guriu sodu g. 8',
-	'url' => 'https://www.thispersondoesnotexist.com/image?',
-],
-[
-	'name' => 'Giedrius',
-	'age' => 27,
-	'address' => 'Vilnius g. 101',
-	'url' => 'https://upload.wikimedia.org/wikipedia/commons/0/09/Gordon_Persons.jpg',
-],
-];
-
-
 
  ?>
