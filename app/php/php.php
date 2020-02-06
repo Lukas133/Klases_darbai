@@ -233,6 +233,14 @@ $countryArray = array(
 	'ZW'=>array('name'=>'ZIMBABWE','code'=>'263')
 );
 
-
-
+$masyvas=[
+	'pirmas' => 'siandiena',
+	'antras' => 'rasiu',
+	'trecias' =>'tave',
+	'ketviras' =>'batai',
+	'penktas' => 'mano',
+	'sestas' => 'busi',
+];
+print $masyvas['pirmas'] . '<br>';
+print $masyvas['trecias'] . '<br>';
  ?>

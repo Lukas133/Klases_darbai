@@ -14,34 +14,7 @@
      <title>Hello, world!</title>
    </head>
    <body class="container mt-5">
-     <form class="" action="" method="GET">
-       First name:<br>
-       <input name="vardas"type="text" value=""><br>
-       Last name:<br>
-       <input name="pavarde"type="text" name="lastname" value=""><br>
-       Email name:<br>
-       <input name="email"type="email" name="" value=""><br>
-       Password: <br>
-       <input name="pasword"type="password" name="" value=""><br>
-       <input type="submit" value="Submit">
-     </form>
-     <table class="table table-stripped">
-       <thead>
-         <?php foreach ($_GET as $key => $value):?>
-         <th> <?php if (!empty($value))
-             print $key ?></th>
-         <?php endforeach; ?>
-       </thead>
-       <tbody>
-         <tr>
-           <?php foreach ($_GET as $value) :?>
-              <td><?php if (!empty($value))
-                print $value ?> </td>
-
-          <?php endforeach; ?>
-         </tr>
-       </tbody>
-     </table>
+      
 
      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
